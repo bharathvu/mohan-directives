@@ -1,7 +1,7 @@
 
-angular.module('ek-directives',[]);
+angular.module('mohan-directives',[]);
 
-angular.module('ek-directives').directive('ekNumericOnly', function(){
+angular.module('mohan-directives').directive('mohanNumericOnly', function(){
         return {
             require: 'ngModel',
             link: function (scope, element, attrs, modelCtrl) {
